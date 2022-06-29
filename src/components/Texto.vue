@@ -5,8 +5,6 @@
       <input type="text" v-model="texto" name="texto" id="t1" />
 
       <hr />
-      <!-- <p>Cantidad: {{texto.length}}</p> -->
-      <!-- {{ this.codificar(texto) }} <br> -->
       <div class="content">Cantidad De Caracteres: {{ this.cantLetras }}</div>
       <br>
       Codificado: {{ this.codificar(texto) }}
